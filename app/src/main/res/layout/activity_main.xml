@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#757575"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_margin="45dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="#493E3E" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:textColor="#fafafa"
+        android:layout_height="wrap_content"
+        android:text="Your Photo Will Be Displayed Above After Taking The Picture"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"/>
+
+    <Button
+        android:paddingRight="11dp"
+        android:paddingLeft="11dp"
+        android:background="#d84315"
+        android:id="@+id/btnTakepic"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take the picture" />
+
+
+
+</LinearLayout>
